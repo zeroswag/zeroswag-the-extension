@@ -5,8 +5,8 @@ html, body {
   font-family: 'Raleway', sans-serif;
 }
 
-html { 
-  background: url(walrus.jpg) no-repeat center center fixed; 
+html {
+  background: url(walrus.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,10 +14,10 @@ html {
 }
 
 .main-container {
-  height: 100%;
+  margin-top: 5%;
+  margin-left: 20%;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
 
