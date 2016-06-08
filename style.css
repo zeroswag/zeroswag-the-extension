@@ -25,8 +25,12 @@ html {
   font-size: 2.5em;
 }
 
-.phonetic {
-  font-size: 1.5em;
+.thanks {
+  color: rgba(0,0,0,.7);
+  font-size: 0.7em;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
 }
 
 .description {
