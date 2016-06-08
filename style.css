@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  font-family: 'Raleway', sans-serif;
 }
 
 .main-container {
@@ -7,4 +8,17 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.word {
+  font-size: 2.5em;
+}
+
+.phonetic {
+  font-size: 1.5em;
+}
+
+.description {
+  font-size: 1.5em;
 }
