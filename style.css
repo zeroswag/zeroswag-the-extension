@@ -3,6 +3,7 @@ html, body {
   padding: 0;
   height: 100%;
   font-family: 'Raleway', sans-serif;
+  font-weight: 200;
 }
 
 html {
@@ -14,18 +15,31 @@ html {
 }
 
 .main-container {
-  margin-top: 5%;
-  margin-left: 20%;
+  padding-top: 4%;
+  padding-left: 10%;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
 .word {
-  font-size: 2.5em;
+  font-weight: 400;
+  font-size: 2.3em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.dash {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  width: 200px;
+  height: 200px;
+  float: right;
 }
 
 .thanks {
+  color: gray;
   color: rgba(0,0,0,.7);
   font-size: 0.7em;
   position: fixed;
