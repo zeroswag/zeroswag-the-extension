@@ -248,9 +248,12 @@ var word = document.getElementsByClassName("word");
 var description = document.getElementsByClassName("description");
 var dash = document.getElementsByClassName("dash");
 
-word[0].innerHTML = "insert word";
-description[0].innerHTML = "insert description";
+keys = Object.keys(json);
+randomkey = keys[Math.floor(Math.random() * keys.length)]
+
+word[0].innerHTML = randomkey;
+description[0].innerHTML = json[randomkey];
 
 dash[0].addEventListener('click', function () {
-  document.body.innerHTML="<img src='dash.png'>"; 
+  document.body.innerHTML="<img src='dash.png'>";
 });
