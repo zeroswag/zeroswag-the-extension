@@ -1,10 +1,13 @@
 {
     "name": "zeroswag",
     "description": "Displays a random item from a set of things.",
-    "version": "1.0",
+    "version": "0.0.0.1",
     "manifest_version": 2,
     "permissions" : ["management"],
     "chrome_url_overrides" : {
         "newtab": "newtab.html"
-    }
+    },
+    "icons": { "16": "icon16.png",
+               "48": "icon48.png",
+              "128": "icon128.png" }
 }
