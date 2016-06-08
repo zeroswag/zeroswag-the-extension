@@ -7,7 +7,6 @@ dash[0].addEventListener('click', function () {
   document.body.innerHTML="<img src='dash.png'>";
 });
 
-console.log('lofasz');
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "http://zeroswag.mobil.ninja", true);
 xhr.onreadystatechange = function() {
