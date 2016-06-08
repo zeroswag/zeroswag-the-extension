@@ -3,7 +3,16 @@
     "description": "Displays a random item from a set of things.",
     "version": "0.0.0.1",
     "manifest_version": 2,
-    "permissions" : ["management"],
+    "permissions" : ["management", "tabs"],
+    "browser_action": {
+        "default_icon": {                    
+          "16": "icon16.png"        
+          },
+        "default_title": "zeroswag"
+    },
+    "background": {
+        "scripts": ["icon.js"]
+    },
     "chrome_url_overrides" : {
         "newtab": "newtab.html"
     },
