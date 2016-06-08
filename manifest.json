@@ -3,7 +3,7 @@
     "description": "Displays a random item from a set of things.",
     "version": "0.0.0.1",
     "manifest_version": 2,
-    "permissions" : ["management", "tabs"],
+    "permissions" : ["management"],
     "browser_action": {
         "default_icon": {                    
           "16": "icon16.png"        
