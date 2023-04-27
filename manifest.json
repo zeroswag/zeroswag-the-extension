@@ -1,17 +1,17 @@
 {
     "name": "zeroswag",
     "description": "Displays a random item from a set of things.",
-    "version": "0.0.0.5",
-    "manifest_version": 2,
-    "permissions" : ["management", "http://zeroswag.mobil.ninja/"],
-    "browser_action": {
+    "version": "0.0.0.6",
+    "manifest_version": 3,
+    "host_permissions" : ["http://zeroswag.mobil.ninja/"],
+    "action": {
         "default_icon": {
           "16": "icon16.png"
           },
         "default_title": "zeroswag"
     },
     "background": {
-        "scripts": ["icon.js"]
+        "service_worker": "icon.js"
     },
     "chrome_url_overrides" : {
         "newtab": "newtab.html"
